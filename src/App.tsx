@@ -47,7 +47,7 @@ export default function App() {
 
   // Main component rendering
   return (
-    <div className="min-h-screen md:grid md:place-items-center bg-white font-hanken">
+    <div className="flex justify-center items-center md:h-screen">
       <main className="md:shadow-[10px_10px_30px_14px_rgb(1_76_161_/_10%)] md:rounded-[2rem] max-w-md w-full md:flex md:max-w-[686px] md:h-[476px]">
         {/* ResultCard component to display results Card */}
         <ResultCard loading={loading} results={results} />
