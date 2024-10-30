@@ -15,7 +15,7 @@ export default function App() {
     const fetchData = async () => {
       try {
         // Attempt to fetch data from the local server's JSON file.
-        const response = await fetch("http://localhost:5173/data.json");
+        const response = await fetch(`${window.origin}/data.json`);
         if (!response.ok) {
           // If the response is not OK, throw an error.
           throw new Error("Failed to fetch data");
