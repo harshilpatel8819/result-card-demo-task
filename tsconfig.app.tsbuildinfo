@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/setuptests.ts","./src/types.ts","./src/vite-env.d.ts","./src/components/errordisplay/errordisplay.tsx","./src/components/loadingskeleton/loadingskeleton.tsx","./src/components/resultcard/resultcard.tsx","./src/components/resultsummary/resultsummary.tsx","./src/components/skeleton/skeleton.tsx"],"version":"5.6.3"}
