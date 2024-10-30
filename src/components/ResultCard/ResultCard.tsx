@@ -21,7 +21,7 @@ const ResultHeader: React.FC<ResultHeaderProps> = ({ loading, results }) => {
 
   // Main render section
   return (
-    <div className="text-center p-8 md:p-10 rounded-b-[2rem] md:rounded-[2rem] bg-gradient-to-b from-light-slate-blue to-light-royal-blue">
+    <div className="text-center p-8 md:p-10 md:rounded-[2rem] rounded-b-[2rem] bg-gradient-to-b from-light-slate-blue to-light-royal-blue md:max-w-[343px]">
       {/* Main title for the results header */}
       <h1 className="text-light-lavender text-lg md:text-2xl mb-6 font-bold">
         Your Result
@@ -35,7 +35,7 @@ const ResultHeader: React.FC<ResultHeaderProps> = ({ loading, results }) => {
             <p className="text-[3.5rem] md:text-[4.5rem] leading-tight font-extrabold text-white">
               {average}
             </p>
-            <p className="text-light-lavender text-sm md:text-base font-medium">
+            <p className="text-light-lavender text-lg font-medium">
               of 100
             </p>
           </>

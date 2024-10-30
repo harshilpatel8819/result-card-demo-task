@@ -48,7 +48,7 @@ export default function App() {
   // Main component rendering
   return (
     <div className="min-h-screen md:grid md:place-items-center bg-white font-hanken">
-      <main className="md:shadow-2xl md:rounded-[2rem] md:grid md:grid-cols-2 max-w-[46rem] min-[1440px]:max-w-[56rem]">
+      <main className="md:shadow-[10px_10px_30px_14px_rgb(1_76_161_/_10%)] md:rounded-[2rem] max-w-md w-full md:flex md:max-w-[686px] md:h-[476px]">
         {/* ResultCard component to display results Card */}
         <ResultCard loading={loading} results={results} />
         {/* Summary component to display detailed results */}

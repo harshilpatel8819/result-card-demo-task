@@ -22,7 +22,7 @@ export const colorMap: Record<string, { color: string; bg: string }> = {
  * @param {ResultSummaryProps} props The component properties including loading state and results data.
  */
 const ResultSummary: React.FC<ResultSummaryProps> = ({ loading, results }) => (
-  <div className="p-8 md:p-10 bg-white">
+  <div className="p-8 md:p-10 bg-white rounded-[30px] md:max-w-[343px] w-full">
     {/* Header for the Summary section */}
     <h2 className="text-dark-gray-blue font-bold text-lg md:text-2xl mb-6">
       Summary
@@ -52,7 +52,7 @@ const ResultSummary: React.FC<ResultSummaryProps> = ({ loading, results }) => (
             </div>
             {/* Display the result score */}
             <p className="font-bold text-dark-gray-blue">
-              {result.score} / 100
+              {result.score} <span className="text-gray-400"> / 100 </span>
             </p>
           </li>
         ))
