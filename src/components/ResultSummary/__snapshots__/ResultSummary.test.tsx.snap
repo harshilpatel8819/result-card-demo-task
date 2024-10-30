@@ -1,0 +1,76 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ResultSummary component > takes a snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="p-8 md:p-10 bg-white"
+  >
+    <h2
+      class="text-dark-gray-blue font-bold text-lg md:text-2xl mb-6"
+    >
+      Summary
+    </h2>
+    <ul
+      class="space-y-4"
+    >
+      <li
+        class="flex items-center justify-between p-4 rounded-xl bg-opacity-10 bg-light-red"
+      >
+        <div
+          class="flex gap-3.5 items-center"
+        >
+          <span
+            class="text-light-red"
+          >
+            <img
+              alt="Reaction"
+              src="/path/to/reaction.svg"
+            />
+          </span>
+          <span
+            class="font-medium text-light-red"
+          >
+            Reaction
+          </span>
+        </div>
+        <p
+          class="font-bold text-dark-gray-blue"
+        >
+          90 / 100
+        </p>
+      </li>
+      <li
+        class="flex items-center justify-between p-4 rounded-xl bg-opacity-10 bg-orangey-yellow"
+      >
+        <div
+          class="flex gap-3.5 items-center"
+        >
+          <span
+            class="text-orangey-yellow"
+          >
+            <img
+              alt="Memory"
+              src="/path/to/memory.svg"
+            />
+          </span>
+          <span
+            class="font-medium text-orangey-yellow"
+          >
+            Memory
+          </span>
+        </div>
+        <p
+          class="font-bold text-dark-gray-blue"
+        >
+          88 / 100
+        </p>
+      </li>
+    </ul>
+    <button
+      class="w-full mt-6 py-4 rounded-full bg-dark-gray-blue hover:bg-gradient-to-b hover:from-light-slate-blue hover:to-light-royal-blue text-white font-medium transition-colors disabled:opacity-50 text-lg"
+    >
+      Continue
+    </button>
+  </div>
+</DocumentFragment>
+`;
